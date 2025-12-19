@@ -1,4 +1,4 @@
-# 🏥 DoctoDial - AI Healthcare Triage MVP
+# 🏥 DoctoDial - AI Healthcare Triage 
 
 DoctoDial is a voice-based AI healthcare triage application that helps users assess their medical symptoms and provides urgency classification along with nearby hospital recommendations.
 
@@ -11,7 +11,6 @@ DoctoDial is a voice-based AI healthcare triage application that helps users ass
 - 🚨 **Urgency Classification**: Classifies into Emergency / Doctor Visit / Home Care
 - 🏥 **Hospital Finder**: Shows nearby hospitals based on urgency and location
 - 🌐 **Bilingual**: Supports English and Hindi input
-- 📊 **Visual Dashboard**: Clean, intuitive Streamlit interface
 
 ### Google Speech Recognition API
 
@@ -65,15 +64,14 @@ For production deployment:
 
 ## 📚 Tech Stack
 
-- **Frontend**: Streamlit
+- **Frontend**: React / Vite, TypeScript, HTML5, CSS3
 - **NLP**: spaCy
+- **Backend**: Python, FastAPI
 - **Speech Recognition**: SpeechRecognition (Google Speech API)
-- **Language**: Python 3.8+
-- **Data Processing**: Pandas, NumPy
 
 ## 📄 License
 
-This project is for educational and demonstration purposes.
+This project is licensed under the MIT License
 
 ## 🤝 Contributing
 
